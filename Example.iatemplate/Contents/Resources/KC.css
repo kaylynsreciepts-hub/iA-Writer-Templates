@@ -1,4 +1,160 @@
-============================================================
+/* ============================================================
+   iA Writer Template: KC
+   Light mode: default (no class)
+   Dark mode:  html.night  ← iA Writer's actual night class
+   ============================================================ */
+
+/* --- Page & Base --- */
+@page {
+  margin: 0.85in 1.0in 0.85in 1.0in;
+}
+
+html {
+  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+.markdown-body {
+  max-width: 100%;
+}
+
+/* --- Name (H1) --- */
+.markdown-body h1 {
+  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 26pt;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #111111;
+  margin: 0 0 4px 0;
+  padding: 0;
+  border: none;
+  text-transform: none;
+}
+
+/* --- Contact / Subtitle line (paragraph immediately after H1) --- */
+.markdown-body h1 + p,
+.markdown-body h1 + p em {
+  text-align: center;
+  font-size: 9pt;
+  color: #888888;
+  margin: 0 0 24px 0;
+  font-style: normal;
+}
+
+/* --- Section Headers (H2: SKILLS, EXPERIENCE, etc.) --- */
+.markdown-body h2 {
+  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2E6DA4;
+  margin: 20px 0 2px 0;
+  padding-bottom: 3px;
+  border-bottom: 1.5px solid #2E6DA4;
+}
+
+/* --- Job Title / Role line (H3) --- */
+.markdown-body h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 10px 0 2px 0;
+  border: none;
+}
+
+/* --- Company + Date subtitle (H4) --- */
+.markdown-body h4 {
+  font-size: 9.5pt;
+  font-weight: 400;
+  font-style: italic;
+  color: #5a7fa8;
+  margin: 0 0 4px 0;
+  border: none;
+}
+
+/* --- Sub-section labels (H5: Education degree, Cert names) --- */
+.markdown-body h5 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 6px 0 2px 0;
+  border: none;
+  display: inline;
+}
+
+/* --- Body paragraphs --- */
+.markdown-body p {
+  margin: 2px 0 6px 0;
+  font-size: 10pt;
+  color: #1a1a1a;
+}
+
+/* --- Bullet lists --- */
+.markdown-body ul {
+  margin: 2px 0 8px 0;
+  padding-left: 18px;
+}
+
+.markdown-body ul li {
+  font-size: 10pt;
+  margin-bottom: 5px;
+  line-height: 1.4;
+  list-style-type: disc;
+}
+
+/* Bold lead-in phrase in bullet */
+.markdown-body ul li strong {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* --- Skills: bold blue category labels --- */
+.markdown-body h2 + p strong,
+.markdown-body p strong {
+  font-weight: 700;
+  color: #2E6DA4;
+}
+
+/* --- Italic text (dates, locations) --- */
+.markdown-body em {
+  font-style: italic;
+  color: #5a7fa8;
+}
+
+/* --- Horizontal rule --- */
+.markdown-body hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 12px 0;
+}
+
+/* --- Links --- */
+.markdown-body a {
+  color: #2E6DA4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+/* --- Blockquote (contact info alternative) --- */
+.markdown-body blockquote {
+  text-align: center;
+  font-size: 9pt;
+  color: #888888;
+  border: none;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+
+/* ============================================================
    DARK MODE  —  html.night  (iA Writer's actual night class)
    Palette: dark charcoal bg · warm off-white text · steel blue accents
    ============================================================ */
