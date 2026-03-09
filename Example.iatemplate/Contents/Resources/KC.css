@@ -10,7 +10,7 @@
 }
 
 html.night-mode {
-  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "iA Writer Duo", "iA Writer Mono";
   font-size: 10pt;
   line-height: 1.4;
   color: #dedad4;
@@ -24,7 +24,7 @@ html.night-mode .markdown-body {
 
 /* --- Name (H1) --- */
 html.night-mode .markdown-body h1 {
-  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "iA Writer Duo";
   font-size: 26pt;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -48,7 +48,7 @@ html.night-mode .markdown-body h1 + p em {
 
 /* --- Section Headers (H2: SKILLS, EXPERIENCE, etc.) --- */
 html.night-mode .markdown-body h2 {
-  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "iA Writer Duo";
   font-size: 10pt;
   font-weight: 700;
   letter-spacing: 0.08em;
