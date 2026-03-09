@@ -1,0 +1,168 @@
+/* ============================================================
+   iA Writer Template: Kaylyn Pug Resume Style
+   Matches formatting from Kaylyn_Pug_Resume_Etude010
+   ============================================================ */
+
+/* --- Page & Base --- */
+@page {
+  margin: 0.85in 1.0in 0.85in 1.0in;
+}
+
+html {
+  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+body {
+  max-width: 100%;
+}
+
+/* --- Name (H1) --- */
+h1 {
+  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 26pt;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #111111;
+  margin: 0 0 4px 0;
+  padding: 0;
+  border: none;
+  text-transform: none;
+}
+
+/* --- Contact / Subtitle line (H6 or italic paragraph under H1) --- */
+h1 + p,
+h1 + p em {
+  text-align: center;
+  font-size: 9pt;
+  color: #888888;
+  margin: 0 0 24px 0;
+  font-style: normal;
+}
+
+/* --- Section Headers (H2: SKILLS, EXPERIENCE, etc.) --- */
+h2 {
+  font-family: "Calibri", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2E6DA4;
+  margin: 20px 0 2px 0;
+  padding-bottom: 3px;
+  border-bottom: 1.5px solid #2E6DA4;
+}
+
+/* --- Job Title / Role line (H3) --- */
+h3 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 10px 0 2px 0;
+  border: none;
+}
+
+/* --- Company + Date subtitle (H4) --- */
+h4 {
+  font-size: 9.5pt;
+  font-weight: 400;
+  font-style: italic;
+  color: #5a7fa8;
+  margin: 0 0 4px 0;
+  border: none;
+}
+
+/* --- Sub-section labels (H5: Education degree, Cert names) --- */
+h5 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 6px 0 2px 0;
+  border: none;
+  display: inline;
+}
+
+/* --- Body paragraphs --- */
+p {
+  margin: 2px 0 6px 0;
+  font-size: 10pt;
+  color: #1a1a1a;
+}
+
+/* --- Bullet lists --- */
+ul {
+  margin: 2px 0 8px 0;
+  padding-left: 18px;
+}
+
+ul li {
+  font-size: 10pt;
+  margin-bottom: 5px;
+  line-height: 1.4;
+  list-style-type: disc;
+}
+
+/* Bold lead-in phrase in bullet (strong) */
+ul li strong {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* --- Skills section: bold blue category labels --- */
+/* In iA Writer, use **Category:** syntax for bold; 
+   we style strong inside paragraphs under #skills-like sections */
+h2 + p strong,
+p strong {
+  font-weight: 700;
+  color: #2E6DA4;
+}
+
+/* --- Italic text (dates, locations) --- */
+em {
+  font-style: italic;
+  color: #5a7fa8;
+}
+
+/* --- Separator / horizontal rule --- */
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 12px 0;
+}
+
+/* --- Links --- */
+a {
+  color: #2E6DA4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Blockquote (for contact info alternative styling) --- */
+blockquote {
+  text-align: center;
+  font-size: 9pt;
+  color: #888888;
+  border: none;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+/* --- Print / Export --- */
+@media print {
+  body {
+    font-size: 10pt;
+  }
+  h2 {
+    page-break-after: avoid;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
+}
