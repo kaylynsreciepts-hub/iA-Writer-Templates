@@ -4,9 +4,9 @@
 <plist version="1.0">
 <dict>
   <key>CFBundleIdentifier</key>
-  <string>KC.test.tempalate</string>
+  <string>com.example</string>
   <key>CFBundleName</key>
-  <string>KC</string>
+  <string>Example</string>
   <key>CFBundleVersion</key>
   <string>1.0</string>
   <key>IATemplateDescription</key>
