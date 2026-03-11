@@ -10,7 +10,7 @@
 }
 
 html:not(.night-mode) {
-  font-family: "Brandon Grotesque", "iA Writer Duo", "iA Writer Mono";
+  font-family: "Source Sans 3 Light", "Brandon Grotesque", "iA Writer Duo", "iA Writer Mono";
   font-size: 10pt;
   line-height: 1.4;
   color: #1a1a1a;
@@ -168,7 +168,7 @@ html:not(.night-mode) .markdown-body blockquote {
 }
 
 html.night-mode {
-  font-family: "Brandon Grotesque", "iA Writer Duo", "iA Writer Mono";
+  font-family: "Source Sans 3 Light", "Brandon Grotesque", "iA Writer Duo", "iA Writer Mono";
   font-size: 10pt;
   line-height: 1.4;
   color: #dedad4;
